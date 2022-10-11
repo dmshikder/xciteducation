@@ -25,17 +25,17 @@ const Login = () => {
       <div className="flex justify-center items-center h-screen">
         <div className="card bg-lightGrey bg-opacity-25 w-2/4">
           <div>
-            <h2 className="text-4xl font-aclonica pt-14 pb-14 text-left pl-12">Login</h2>
+            <h2 className="text-4xl font-aclonica pt-14 pb-14 text-left pl-12 text-white">Login</h2>
             <form className='flex flex-col items-center justify-center' onSubmit={handleSubmit(onSubmit)}>
   
               <div className="form-control ">
                 <label className="label">
-                  <span className="label-text text-base pb-2 font-bold">Email/Ph no</span>
+                  <span className="label-text text-base font-bold text-white">Email</span>
                  
                 </label>
                 <input
                   type="email"
-                  placeholder="Enter your email/ phone no"
+                  placeholder="Enter your email"
                   className="input w-96 bg-opacity-10"
                   {...register("email", {
                       required:{
@@ -51,7 +51,7 @@ const Login = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text text-base pb-2 font-bold">Password</span>
+                  <span className="label-text text-base pt-3 font-bold text-white">Password</span>
                  
                 </label>
                 <input
@@ -71,12 +71,12 @@ const Login = () => {
                 />
              
               </div>
-              <p className='pb-9 pl-64 underline hover:text-white'><Link  to='/'>Forgot Password</Link></p>
+              <p className='pb-9 pl-64 text-white underline hover:text-vividGreen'><Link  to='/'>Forgot Password</Link></p>
              
              
-              <input className="btn border-none w-56 bg-rosewood" type="submit" value='Login' />
+              <input className="btn border-none w-56 bg-rosewood hover:bg-azure" type="submit" value='Login' />
             </form>
-            <p className='pt-4 pb-14'>Don't have an account?  <Link className='font-bold hover:text-white' to='/signup'> Sign up</Link></p>
+            <p className='pt-4 pb-14 text-white'>Don't have an account?  <Link className='font-bold hover:text-vividGreen' to='/signup'> Sign up</Link></p>
            
             
             

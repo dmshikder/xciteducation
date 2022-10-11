@@ -18,6 +18,8 @@ module.exports = {
       white:'#FFFFFF',
       lightGrey:'#d9d9d9',
       rosewood:'#630000',
+      azure:'#00A3F5',
+      vividGreen:'#35F500',
      
     },
   },
