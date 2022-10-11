@@ -1,11 +1,19 @@
 import React from "react";
+import Navbar from "../Shared/Navbar/Navbar";
+import Navbar2 from "../Shared/Navbar/Navbar2";
 
 const Discover = () => {
   return (
-    <div>
-      
-      <p>this is discover page</p>
-    </div>
+    <>
+      <div>
+        <div className="bg-vividAuburn">
+          <Navbar />
+        </div>
+        <div>
+          <Navbar2 />
+        </div>
+      </div>
+    </>
   );
 };
 

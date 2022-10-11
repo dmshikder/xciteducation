@@ -19,7 +19,7 @@ const StartYourJourny = () => {
         <div className='w-96'>
             <h2 className='text-5xl text-white pb-14 font-acme'>KALLA KENDRA</h2>
             <p className='text-cloudyGrey text-base pb-12'>Immodest and attractive is easy. Modest and repulsive is easy too. But modest and attractive is an art.</p>
-            <Link to='/discover'><button className='bg-black text-white px-6 py-4 rounded-xl text-lg'>Start Your Journey</button></Link>
+            <Link to='/discover'><button className='bg-black text-white px-6 py-4 rounded-xl text-lg hover:bg-yellow hover:text-black hover:font-bold'>Start Your Journey</button></Link>
         </div>
         <div className='w-100'>
             <img src={bgStart} alt="" />

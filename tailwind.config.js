@@ -34,6 +34,11 @@ module.exports = {
       vividGreen:'#35F500',
       cloudyGrey:'#746767',
       black:'#000000',
+      yellow:'#E5BE02',
+      vividAuburn:'#9B2322',
+      monsoon:'#888888',
+      aquaHaze:'#F3F3F3',
+      osloGrey:'#8D8D8D',
      
     },
   },

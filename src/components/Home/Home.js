@@ -29,7 +29,7 @@ const Home = () => {
      </div>
      <div className="relative -mt-96">
         <div><h1 className="text-6xl text-white font-acme">Welcome! to kalla kendra</h1></div>
-        <div><Link to='/startyourjourny'><button className="w-60 h-16 bg-lightRose rounded-full mt-11 text-iridium text-2xl font-aclonica">World of Artist</button></Link></div>
+        <div><Link to='/startyourjourny'><button className="w-60 h-16 bg-lightRose rounded-full mt-11 text-iridium text-2xl font-aclonica hover:bg-yellow ">World of Artist</button></Link></div>
      </div>
      <div className="relative flex justify-evenly mt-44">
         <img src={speaker1} alt="" />
