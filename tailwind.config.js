@@ -5,6 +5,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width:{
+        '100':'30rem',
+        '101':'32rem',
+        '102':'34rem',
+        '103':'36rem',
+        '104':'38rem',
+        '105':'40rem',
+        '106':'42rem',
+        '107':'44rem',
+        '108':'46rem',
+        '109':'48rem',
+      },
       fontFamily: {
         acme:['Acme', 'sans-serif'],
         aclonica:['Aclonica', 'sans-serif'],
@@ -20,6 +32,8 @@ module.exports = {
       rosewood:'#630000',
       azure:'#00A3F5',
       vividGreen:'#35F500',
+      cloudyGrey:'#746767',
+      black:'#000000',
      
     },
   },
