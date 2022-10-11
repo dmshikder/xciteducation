@@ -16,6 +16,8 @@ module.exports = {
       lightRose:'#FFC7C7',
       iridium:'#3A3A3A',
       white:'#FFFFFF',
+      lightGrey:'#d9d9d9',
+      rosewood:'#630000',
      
     },
   },
